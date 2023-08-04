@@ -799,3 +799,57 @@ button {
   visibility: hidden;
   pointer-events: none;
 }
+
+.modal-title {
+  padding: 72px 24px 16px 24px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--footer-background-color, #2e2f42);
+  font-weight: 500;
+}
+
+.modal-form-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 24px;
+}
+
+.modal-form-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+  line-height: 14px;
+  color: var(--customers-color-link, #8e8f99);
+}
+
+.modal-checkbox-label {
+  display: flex;
+  font-size: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+}
+
+.checkbox-a {
+  color: var(--primary-logo-color, #4d5ae5);
+}
+
+.modal-checkbox {
+  margin-right: 8px;
+}
+
+.modal-submit-btn-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.modal-submit-btn {
+  justify-content: center;
+}
