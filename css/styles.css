@@ -52,6 +52,15 @@ button {
 
 input {
   border: none;
+  outline: none;
+}
+
+a {
+  outline: none;
+}
+
+button {
+  outline: none;
 }
 
 .link {
